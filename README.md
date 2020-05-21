@@ -152,8 +152,11 @@ class TVShow:
         plt.figure(figsize=(10, 5))
 
         plt.plot(numbers, axis)
+        plt.suptitle('TV Show Analysis')
         axes = plt.gca()
         axes.set_ylim([0, 10])
+        plt.xlabel('Episodes')
+        plt.ylabel('IMDb Score')
         plt.show()
 
 ```
