@@ -45,7 +45,7 @@ class TVShow:
     def __init__(self, imdb_id, best):
         '''
         Initializes the class, best is True by default; meaning it returns the top episodes.
-        Add Fale parameter to the main function to get bottom ones.
+        Add False parameter to the main function to get bottom ones.
         '''
         self.imdb_id = imdb_id
         self.best = best
